@@ -1,43 +1,52 @@
 import React from 'react';
-import styles from './Heading.module.css';
+import './Heading.module.css';
 import { HeadingMenus } from './HeadingMenus';
 import Image from 'next/image'
 
 export const Heading = () => {
     const menus = [
         {
-            name: 'projects',
-            icon: "/img/file.png",
+            name: 'Resume',
+            icon: "/file.svg",
         },
         {
             name: 'About Me',
-            icon: "/img/profile.png",
+            icon: "/person.svg",
         },
         {
-            name: 'Resume',
-            icon: "/img/settings.png",
+            name: 'projects',
+            icon: "/folder.svg",
+        },
+        {
+            name: 'Reach out',
+            icon: "/email.svg",
         },
         {
             name: 'LinkedIn',
-            icon: "/img/settings.png",
+            icon: "/linkedin.svg",
         },
     ]
 
     return (
-        <div className='fixed m-auto align-center text-white lg:w-[50%] md:w-[60%] sm:w-100 '>
-            <Image src="/d_well_.JPG" width={100} height={100} alt="Picture of the author" />
-            <p className='text-center font-black lg:text-[90px] sm:text-[100px] bg-clip-text text-transparent bg-gradient-to-r from-[#02886f] to-[#9BECE1]'>
-                {/* Hello! I&apos;m  <br />*/}
-
-                Niño Jherico Cocosa
+        <div className='fixed m-auto align-center text-white lg:w-[60%] md:w-[60%] sm:w-100 '>
+            <Image className='rounded-full m-auto' src="/d_well_.JPG" width={50} height={50} alt="Picture of the author" />
+            <p className='text-center font-medium lg:text-[80px] sm:text-[100px] bg-clip-text  bg-gradient-to-r from-[#02886f] to-[#9BECE1]'>
+                I&apos;m Niño Jherico Cocosa
             </p>
-            <div className="flex justify-center gap-2 capitalize my-10">
-                {menus.map((menu, index) => (
-                    <HeadingMenus key={index} name={menu.name} />
-                ))}
+            <div className="flex justify-center gap-6 capitalize m-10">
+                {menus.map((menu, index) => {
+                    const distanceFromMiddle = Math.abs(index - (menus.length - 1) / 2);
+                    const rotationAngle = distanceFromMiddle === 0 ? 0 : (distanceFromMiddle * 4);
+                    const translationFactor = distanceFromMiddle * 5;
 
+                    return (
+                        <div key={index} style={{ transform: `translateY(${index === 0 || index === menus.length - 1 ? translationFactor + 10 : translationFactor}px) rotate(${index < (menus.length - 1) / 2 ? -rotationAngle : rotationAngle}deg)` }} className='z-0'>
+                            <HeadingMenus name={menu.name} icon={menu.icon} />
+                        </div>
+                    );
+                })}
             </div>
-            <p className=' text-white m-auto w-fit rounded-full px-3 py-1  border'>
+            <p className='cursor-default text-white mx-auto w-fit rounded-full p-3 m-20  border'>
                 Software developer
             </p>
         </div>
