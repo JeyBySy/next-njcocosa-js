@@ -18,12 +18,16 @@ export const Heading = () => {
             icon: "/folder.svg",
         },
         {
-            name: 'Reach out',
-            icon: "/email.svg",
+            name: 'Github',
+            icon: "/github.svg",
         },
         {
             name: 'LinkedIn',
             icon: "/linkedin.svg",
+        },
+        {
+            name: 'Reach out',
+            icon: "/email.svg",
         },
     ]
 
