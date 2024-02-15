@@ -5,8 +5,6 @@ import Image from 'next/image'
 import { menus } from '../../utils/menus'
 
 export const Heading = () => {
-
-
     return (
         <div className='m-auto align-center text-white lg:w-[60%] md:w-[60%] sm:w-100'>
             <Image className='rounded-full m-auto' src="/d_well_.JPG" width={50} height={50} alt="Picture of the author" />
@@ -21,7 +19,7 @@ export const Heading = () => {
 
                     return (
                         <div key={index} className='z-0 text-[#696b70]' style={{ transform: `translateY(${index === 0 || index === menus.length - 1 ? translationFactor + 10 : translationFactor}px) rotate(${index < (menus.length - 1) / 2 ? -rotationAngle : rotationAngle}deg)` }} >
-                            <HeadingMenus name={menu.name} icon={menu.icon} link={menu.link} />
+                            <HeadingMenus name={menu.name} icon={menu.icon} link={menu.link} isLink={menu.isLink} />
                         </div>
                     );
                 })}
