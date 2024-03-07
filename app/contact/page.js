@@ -1,8 +1,13 @@
+
+import HomeBtn from '@/components/HomeBtn/page'
 import React from 'react'
 
 const contact = () => {
     return (
-        <div>contact</div>
+        <>
+            <HomeBtn />
+            <div>contact</div>
+        </>
     )
 }
 

@@ -1,11 +1,11 @@
 
-import { Heading } from "../components/Heading/page";
+import { Homepage } from "../components/Home/page";
 
 
 export default function Home() {
   return (
     <main className="flex items-center justify-center h-lvh">
-      <Heading />
+      <Homepage />
     </main>
   );
 }
