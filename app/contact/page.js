@@ -1,13 +1,16 @@
 
-import HomeBtn from '@/components/HomeBtn/page'
 import React from 'react'
 
 const contact = () => {
     return (
-        <>
-            <HomeBtn />
-            <div>contact</div>
-        </>
+        <div className='container m-auto w-[90%]'>
+            <p className='highlight text-4xl font-bold'>
+                Contact
+            </p>
+            <div className="divider"></div>
+        </div>
+
+
     )
 }
 

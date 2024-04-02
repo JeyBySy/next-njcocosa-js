@@ -1,7 +1,7 @@
 
-import HomeBtn from '@/components/HomeBtn/page'
-import Nav from '@/components/Nav/page'
-import ProjectLists from '@/components/ProjectList/page'
+// import HomeBtn from '@/components/HomeBtn/page'
+// import Nav from '@/components/Nav/page'
+// import ProjectLists from '@/components/ProjectList/page'
 
 import React from 'react'
 
@@ -15,11 +15,14 @@ export default async function Projects() {
     const projects = await getData()
     // console.log(projects);
     return (
-        <>
-            <HomeBtn />
-            {/* <Nav /> */}
-            {/* <ProjectLists projects={projects} /> */}
-        </>
+        <div className='container m-auto w-[90%]'>
+            <p className='highlight text-4xl font-bold '>
+                Projects
+            </p>
+            <div className="divider"></div>
+
+
+        </div>
     )
 }
 

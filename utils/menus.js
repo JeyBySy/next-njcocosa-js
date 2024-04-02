@@ -2,37 +2,37 @@ export const menus = [
     {
         name: 'projects',
         link: '/projects',
-        icon: "/folder.svg",
+        icon: "/img/folder.svg",
         isLink: false
     },
     {
         name: 'About Me',
         link: '/aboutme',
-        icon: "/person.svg",
+        icon: "/img/person.svg",
         isLink: false
     },
     {
         name: 'Reach out',
         link: '/contact',
-        icon: "/email.svg",
+        icon: "/img/email.svg",
         isLink: false
     },
     {
         name: 'Github',
         link: 'https://github.com/JeyBySy',
-        icon: "/github.svg",
+        icon: "/img/github.svg",
         isLink: true
     },
     {
         name: 'LinkedIn',
         link: 'https://www.linkedin.com/in/jhericococosa/',
-        icon: "/linkedin.svg",
+        icon: "/img/linkedin.svg",
         isLink: true
     },
     {
         name: 'Resume',
         link: '/resume',
-        icon: "/file.svg",
+        icon: "/img/file.svg",
         isLink: true
     },
 ]
