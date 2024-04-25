@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const ProjectLists = ({ projects }) => {
     // const [languages, setLanguages] = useState({});
@@ -29,30 +30,45 @@ const ProjectLists = ({ projects }) => {
     //     fetchLanguages();
     // }, [projects]);
 
+
+    // Define variants for animation
+    const cardVariants = {
+        hidden: { opacity: 0, y: 50 },
+        visible: { opacity: 1, y: 0 },
+    };
+
     return (
-        <section className='w-full flex flex-wrap gap-10'>
-            {projects.map(project => (
-                <div key={project.id} className="flex-shrink-0 w-full min-h-full md:w-1/2 lg:w-1/3 xl:w-1/4 ">
-                    <div className="min-w-0 rounded overflow-hidden shadow-lg bg-green-950">
-                        <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">{project.name}</div>
-                            <p className="text-gray-700 text-base">
-                                {project.description}
-                            </p>
-                        </div>
-                        <div className="px-6 py-4">
-                            {project.language}
-                            {/* {languages[project.id] && languages[project.id].map((language, index) => (
-                                <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                                    {language}
+        <section className='w-full flex flex-wrap gap-5 justify-center'>
+            <AnimatePresence>
+                {projects.map((project, index) => (
+                    <motion.div
+                        key={project.id}
+                        initial="hidden"
+                        animate="visible"
+                        exit="hidden"
+                        variants={cardVariants}
+                        transition={{ duration: 0.3, delay: index * 0.1 }}
+                        className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 relative"
+                    >
+                        <div className="w-full h-full min-h-40 shadow-sm shadow-[#4d4d4d] rounded border-l-[5px] border-green-400 bg-gradient-to-r from-green-900 to-green-950 cursor-pointer ">
+                            <div className="px-6 py-4 relative z-1">
+                                <div className="font-extrabold text-xl mb-2 text-green-50">{project.name}</div>
+                                <p className="text-green-200 text-sm">
+                                    {project.description}
+                                </p>
+                            </div>
+                            <div className="px-6 py-4 text-green-100 text-sm font-extrabold ">
+                                <span className='absolute bottom-0 my-3'>
+                                    {project.language}
                                 </span>
-                            ))} */}
+                            </div>
                         </div>
-                    </div>
-                </div>
-            ))}
+                    </motion.div>
+                ))}
+            </AnimatePresence>
         </section>
     );
+
 };
 
 export default ProjectLists;

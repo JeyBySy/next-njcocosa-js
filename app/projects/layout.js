@@ -6,7 +6,7 @@ const ProjectsLayout = ({ children }) => {
         <>
             <HomeBtn />
             {children}
-
+            Footer
         </>
     )
 }
