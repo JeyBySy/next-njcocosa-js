@@ -35,8 +35,8 @@ export const Homepage = () => {
     return (
         <div className='container w-[90%] m-auto align-center text-white ' >
             {/* <Image className='w-100 z-0' src="/img/bg.jpg" alt="Jherico Cocosa" layout='fill' objectFit='cover' quality={100} /> */}
-            <p className='text-center font-medium mb-16  2xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2rem] '>
-                Hey there! I&apos;m <span className='highlight'>Niño Jherico Cocosa</span>, aspiring Software developer.
+            <p className='text-center text-green-50 font-medium mb-16  2xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2rem] '>
+                Hey there! I&apos;m <span className='text-green-500'>Niño Jherico Cocosa</span> Software developer.
             </p>
             <div className="flex justify-center gap-7 capitalize m-auto flex-wrap sm:w-[100%]">
                 {menus.map((menu, index) => {
@@ -47,8 +47,8 @@ export const Homepage = () => {
                     );
                 })}
             </div>
-            <p className='cursor-default text-white mx-auto w-fit rounded-full p-3 m-20  border text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl'>
-                Software developer
+            <p className='cursor-default text-white mx-auto w-fit rounded-full p-2 m-20  border  sm:text-sm md:text-base lg:text-lg xl:text-sm'>
+                Made with Next.js
             </p>
         </div >
     );

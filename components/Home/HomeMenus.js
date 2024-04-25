@@ -17,7 +17,7 @@ export const HomeMenus = ({ name, icon, link, isLink }) => {
                         <div className={`justify-evenly flex flex-wrap img`}>
                             {name}
                             <span>
-                                <Image src={'/link.png'} width={15} height={0} alt='link' style={{ width: 'auto', height: 'auto' }} />
+                                <Image src={'/img/link.png'} width={15} height={0} alt='link' style={{ width: 'auto', height: 'auto' }} />
                             </span>
                         </div>
                     </div>

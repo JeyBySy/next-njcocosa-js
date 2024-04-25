@@ -1,13 +1,11 @@
-
-import React from 'react'
-
+import LoadTitle from "@/components/Global/LoadTitle/page"
 const contact = () => {
     return (
         <div className='container m-auto w-[90%]'>
-            <p className='highlight text-4xl font-bold'>
-                Contact
-            </p>
-            <div className="divider"></div>
+            <div className='text-green-400 text-5xl font-bold'>
+                <LoadTitle title={"Contact"} />
+            </div>
+
         </div>
 
 

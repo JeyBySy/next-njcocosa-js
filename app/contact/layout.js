@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeBtn from '@/components/HomeBtn/page'
+import HomeBtn from '@/components/Global/HomeBtn/page'
 
 const ContactLayout = ({ children }) => {
     return (

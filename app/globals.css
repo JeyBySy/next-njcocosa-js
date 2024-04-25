@@ -6,7 +6,6 @@
   --base-color: #a5a5a5;
   --base-bg-color: #131418;
   --base-font: DM Sans, sans-serif;
-  --accent-color: #00c49a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,17 +20,4 @@ body {
   font-family: var(--base-font);
   background-color: var(--base-bg-color);
   color: var(--base-color);
-}
-
-.highlight {
-  color: var(--accent-color);
-}
-
-.divider {
-  height: 1px;
-  margin-top: 1rem /* 16px */;
-  margin-bottom: 1rem /* 16px */;
-  width: 20rem;
-  border-width: 2px;
-  border-color: #696b70;
 }
