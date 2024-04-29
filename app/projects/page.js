@@ -12,7 +12,7 @@ import { projects } from '../../utils/projects'
 export default async function Projects() {
     // const projects = await getData()
     return (
-        <div className='container m-auto w-[95%]'>
+        <div className='container m-auto w-full '>
             <div className='text-green-400 text-5xl font-bold '>
                 <LoadTitle title={"Projects"} />
             </div>
