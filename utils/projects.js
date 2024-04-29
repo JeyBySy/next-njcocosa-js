@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const projectsData = fs.readFileSync('data/repos.json', 'utf8');
+const projectsData = fs.readFileSync('data/projects.json', 'utf8');
 const projectsList = JSON.parse(projectsData);
 
 var filterProject = [];
