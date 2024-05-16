@@ -1,11 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
+import LoadTitle from '../LoadTitle/page'
 
-const HomeBtn = () => {
+const HomeBtn = ({ pageName }) => {
     return (
-        <Link href='/' >
-            <div className={'rounded-full w-fit px-3 py-1 m-5 outline  text-center align-middle hover:text-white text-[25px] font-black'}>&#x2190;</div>
-        </Link>
+        <div className='flex'>
+            <Link href='/' >
+                <div className={' w-fit p-1 m-4 text-center align-middle paging font-black'}>&#x2190; </div>
+            </Link>
+            <LoadTitle title={pageName} />
+        </div>
     )
 }
 

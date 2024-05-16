@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import './Home.module.css'
 
 export const HomeMenus = ({ name, icon, link, isLink }) => {
     const iconClass = `flex items-center cursor-pointer p-5 bg-[#2b2c30] rounded-3xl border-4 border-transparent hover:border-white hover:bg-[#696b70]`;

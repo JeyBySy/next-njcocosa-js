@@ -1,0 +1,21 @@
+[
+    {
+      "company": "NUCLEIO TECHNOLOGIES IT SOLUTIONS",
+      "position": "Web developer, Consultant",
+      "responsibilities": "As one of their developer, I played a significant role in building an online platform designed to offer document and data services to their client. I also contributed on building the API for this project and testing it's functionality to seamlessly integrate in the project. The tech stack/tools we used are: Django, SOAP API, SOAPUI tool, Docker, MariaDB, phpMyAdmin.",
+      "date":"March 2023 - Present"
+    },
+    {
+      "company": "LIBERA",
+      "position": "Web developer",
+      "date": "September 2022 – March 2023",
+      "responsibilities": "At a startup company, I worked mainly on the development, customization, debugging, and maintenance for their ERP system. Additionally, I took charge of maintaining, deploying, and monitoring DigitalOcean cloud server infrastructure to guarantee the stability and reliability of our cloud-based services. The tech stack/tools we used are: DigitalOcean, Docker, Linux, Python, Odoo, XML, PosgreSQL. "
+    },
+    {
+      "company": "NUCLEIO TECHNOLOGIES IT SOLUTIONS",
+      "position": "Intern, Software developer",
+      "date": "January 2022 – September 2022",
+      "responsibilities": "On my internship, I comprehensively managed project deployments on our company’s server (on-premise and cloud) infrastructure and actively contributed to various ongoing projects with minimal supervision. Collaborating effectively with team members, I addressed bug fixes and modifications to ensure efficient achievement of project objectives while maintaining high-quality standards. The tech stack/tools we used are: Wordpress, Docker PHP, Laravel, Nodejs, DigitalOcean, Linux, REST API, MySQL."
+    }
+  ]
+  

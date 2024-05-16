@@ -5,7 +5,6 @@
 :root {
   --base-color: #a5a5a5;
   --base-bg-color: #131418;
-  --base-font: DM Sans, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,7 +16,36 @@
 }
 
 body {
-  font-family: var(--base-font);
   background-color: var(--base-bg-color);
-  color: var(--base-color);
+  @apply text-green-50;
+}
+.active {
+  text-decoration: underline;
+}
+.filter_btn {
+  @apply text-green-50 font-bold py-2 text-[18px] font-extrabold px-4 rounded-lg;
+}
+/* li::before {
+  content: ">";
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+} */
+
+.paging {
+  @apply xl:text-4xl sm:text-4xl md:text-2xl;
+}
+.tab {
+  @apply grid gap-3 mt-5;
+}
+.tab .tab_title {
+  @apply text-green-500 text-3xl;
+  font-weight: bolder;
+}
+.tab_description {
+  @apply w-full text-justify text-base;
+}
+.text-muted {
+  color: #bfbfbf;
 }
