@@ -12,7 +12,7 @@ export const menus = [
         isLink: false
     },
     {
-        name: 'Reach out',
+        name: 'Contact',
         link: '/contact',
         icon: "/img/email.svg",
         isLink: false
@@ -31,7 +31,7 @@ export const menus = [
     },
     {
         name: 'Resume',
-        link: '/resume',
+        link: 'https://drive.google.com/file/d/1tdLMMnhkPPs1FGEsyoiGY1oHUfgyzHEi/view?usp=sharing',
         icon: "/img/file.svg",
         isLink: true
     },
