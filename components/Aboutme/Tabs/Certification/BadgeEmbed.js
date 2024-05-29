@@ -2,7 +2,7 @@
 
 import React, { useEffect } from 'react';
 
-const CredlyBadgeEmbed = ({ badgeId }) => {
+const BadgeEmbed = ({ badgeId }) => {
   useEffect(() => {
     const script = document.createElement('script');
     script.src = '//cdn.credly.com/assets/utilities/embed.js';
@@ -26,4 +26,4 @@ const CredlyBadgeEmbed = ({ badgeId }) => {
   );
 };
 
-export default CredlyBadgeEmbed;
+export default BadgeEmbed;

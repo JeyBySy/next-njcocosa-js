@@ -49,3 +49,7 @@ body {
 .text-muted {
   color: #bfbfbf;
 }
+
+.certs {
+  @apply relative w-[350px] h-[280px] rounded outline outline-offset-8 outline-green-400 cursor-pointer;
+}
