@@ -37,7 +37,7 @@ export const Homepage = () => {
             <p className='text-center text-green-50 font-medium mb-16  2xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2rem] '>
                 Hey there! I&apos;m <span className='text-green-500'>Niño Jherico Cocosa</span> Web  developer.
             </p>
-            <div className="flex justify-center gap-7 capitalize m-auto flex-wrap sm:w-[100%]">
+            <div className="flex justify-center gap-7 capitalize m-auto flex-wrap sm:w-[100%] mb-20">
                 {menus.map((menu, index) => {
                     return (
                         <div key={index} className='z-0 text-[#696b70]' style={calculateTransformStyle(index)} >
