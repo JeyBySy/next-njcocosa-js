@@ -49,11 +49,11 @@ const Certifications = () => {
                         <Image src={'/certificates/trendNet.png'} layout="fill" objectFit="contain" alt='Deans Lister Certificate' />
                     </div>
                 </div>
-                {/* <div className='flex gap-2'>
+                <div className='flex gap-2'>
                     <BadgeEmbed badgeId="5c1bea90-66df-4ab1-a6f2-a636add387fd" />
                     <BadgeEmbed badgeId="22a14f6c-704f-45ba-a2f7-80e57e55274e" />
                     <BadgeEmbed badgeId="f11d000d-eaf2-4c78-8a4e-2e9b70775657" />
-                </div> */}
+                </div>
             </section>
 
             <Modal isOpen={modalIsOpen} onClose={closeModal}>
