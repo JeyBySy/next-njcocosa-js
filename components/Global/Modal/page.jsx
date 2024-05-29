@@ -2,9 +2,9 @@ const Modal = ({ isOpen, onClose, children }) => {
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center bg-green-50">
-            <div className="bg-white p-4 rounded shadow-lg relative">
-                <button className="absolute top-2 right-2 text-green-900" onClick={onClose}>Close</button>
+        <div className="fixed w-[95%] m-auto inset-0 rounded flex items-center justify-center bg-[#3d3d3d]">
+            <div className="bg-white p-4 relative">
+                <button className="z-10 absolute top-0 right-5" > <span className="text-[3em] cursor-pointer" onClick={onClose}>&times;</span></button>
                 {children}
             </div>
         </div>
