@@ -25,20 +25,20 @@ const Certifications = () => {
             </div>
 
             <section id='certifications' className="grid gap-5 leading-relaxed p-4">
-                <div className='flex flex-wrap gap-3 relative'>
-                    <div className="relative w-[300px] h-[300px]" onClick={() => openModal('/certificates/deansLister.png')}>
+                <div className='flex flex-wrap gap-8 relative '>
+                    <div className="certs" onClick={() => openModal('/certificates/deansLister.png')}>
                         <Image src={'/certificates/deansLister.png'} layout="fill" objectFit="contain" alt='Deans Lister Certificate' />
                     </div>
-                    <div className="relative w-[300px] h-[300px]" onClick={() => openModal('/certificates/erovotika.png')}>
+                    <div className=" certs" onClick={() => openModal('/certificates/erovotika.png')}>
                         <Image src={'/certificates/erovotika.png'} layout="fill" objectFit="contain" alt='Deans Lister Certificate' />
                     </div>
-                    <div className="relative w-[300px] h-[300px]]" onClick={() => openModal('/certificates/iSite.png')}>
+                    <div className=" certs" onClick={() => openModal('/certificates/iSite.png')}>
                         <Image src={'/certificates/iSite.png'} layout="fill" objectFit="contain" alt='Deans Lister Certificate' />
                     </div>
-                    <div className="relative w-[300px] h-[300px]" onClick={() => openModal('/certificates/LeanSixSigma.png')}>
+                    <div className="certs" onClick={() => openModal('/certificates/LeanSixSigma.png')}>
                         <Image src={'/certificates/LeanSixSigma.png'} layout="fill" objectFit="contain" alt='Deans Lister Certificate' />
                     </div>
-                    <div className="relative w-[300px] h-[300px]" onClick={() => openModal('/certificates/trendNet.png')}>
+                    <div className="certs" onClick={() => openModal('/certificates/trendNet.png')}>
                         <Image src={'/certificates/trendNet.png'} layout="fill" objectFit="contain" alt='Deans Lister Certificate' />
                     </div>
                 </div>
