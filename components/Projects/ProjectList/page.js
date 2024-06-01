@@ -30,8 +30,7 @@ const ProjectLists = ({ projects }) => {
     };
 
     return (
-        <section className='w-full flex flex-wrap gap-2'>
-
+        <section className='w-full flex flex-wrap gap-2 justify-center'>
             <div className="flex space-x-4 w-full justify-center">
                 <button className={`filter_btn ${selectedLanguage === '' ? 'active' : ''}`} onClick={() => handleFilter('')}>
                     All
@@ -51,7 +50,7 @@ const ProjectLists = ({ projects }) => {
                         exit='hidden'
                         variants={cardVariants}
                         transition={{ duration: 0.3, delay: index * 0.1 }}
-                        className="flex-shrink-0 w-full sm:w-100 md:w-1/3 lg:w-1/4 xl:w-1/4 relative"
+                        className=" w-full sm:w-100 md:w-1/3 lg:w-1/4 xl:w-1/4 relative"
                     >
                         <div className="w-full h-full min-h-40 shadow-sm shadow-[#9b9b9b]  border-l-[5px] border-green-400 bg-gradient-to-r from-green-800 to-green-900 cursor-pointer ">
                             <div className="px-6 py-4 relative z-1">

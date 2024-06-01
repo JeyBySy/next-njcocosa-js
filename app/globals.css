@@ -19,6 +19,9 @@ body {
   background-color: var(--base-bg-color);
   @apply text-green-50;
 }
+.nav {
+  @apply bg-gradient-to-t from-[#131418] to-[#31353fcc] mb-10;
+}
 .active {
   text-decoration: underline;
 }

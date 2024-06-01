@@ -4,9 +4,9 @@ import LoadTitle from '../LoadTitle/page'
 
 const HomeBtn = ({ pageName }) => {
     return (
-        <div className='flex'>
+        <div className='flex nav'>
             <Link href='/' >
-                <div className={' w-fit p-1 m-4 text-center align-middle paging font-black'}>&#x2190; </div>
+                <div className={'w-fit p-1 m-4 text-center align-middle paging font-black'}>&#x2190;</div>
             </Link>
             <LoadTitle title={pageName} />
         </div>
