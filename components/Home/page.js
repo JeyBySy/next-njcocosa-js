@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { HomeMenus } from './HomeMenus';
 import Image from 'next/image'
-import { menus } from '../../utils/menus'
+import { menus } from './menus'
 import Footer from '../Global/Footer/page';
 
 export const Homepage = () => {

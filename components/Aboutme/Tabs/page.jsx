@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Experience from './Experience/page';
 import Skills from './Skills/page';
 import Certifications from './Certification/page';
+import Contact from './Contact/page';
 
 const Tabs = () => {
 
@@ -11,6 +12,7 @@ const Tabs = () => {
             <Skills />
             <Experience />
             <Certifications />
+            <Contact />
         </>
     )
 }
