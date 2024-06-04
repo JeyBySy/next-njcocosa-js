@@ -1,7 +1,5 @@
-const fs = require('fs');
+import projectsList from '../data/projects.json'
 
-const projectsData = fs.readFileSync('data/projects.json', 'utf8');
-const projectsList = JSON.parse(projectsData);
 
 var filterProject = [];
 const excludeProject = new Set(["stopwatch", "first_app", "IT-curriculum-guide", "javascript-algorithms", "next-njcocosa", "Project-List", "react-ph-client", "system-design-primer", "client"]);
