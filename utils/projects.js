@@ -1,4 +1,4 @@
-import projectsList from '../data/projects.json'
+import projectsList from 'data/projects.json'
 
 
 var filterProject = [];
