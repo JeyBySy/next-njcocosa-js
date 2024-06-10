@@ -25,7 +25,7 @@ export const menus = [
     },
     {
         name: 'Resume',
-        link: 'https://drive.google.com/file/d/1tdLMMnhkPPs1FGEsyoiGY1oHUfgyzHEi/view?usp=sharing',
+        link: 'https://drive.google.com/file/d/16wp4SeeMtGhr4dzNCk_zM9tmoRUxymCP/view?usp=sharing',
         icon: "/img/file.svg",
         isLink: true
     },
