@@ -1,15 +1,20 @@
 
-import Header from "@/components/Global/Header";
-
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    // <main className="flex items-center justify-center h-lvh">
-    //  
-    // </main>
-    <>
-      <Header />
-
-    </>
+    <main>
+      <Navbar />
+      <section className="flex flex-col">
+        <Header />
+        <About />
+        <Projects />
+        <Contact />
+      </section>
+    </main>
   );
 }

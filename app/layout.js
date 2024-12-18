@@ -1,8 +1,8 @@
-import { Lato } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
 
-const inter = Lato({ subsets: ["latin"], weight: '400', });
+const inter = Poppins({ subsets: ["latin"], weight: '400', });
 
 export const metadata = {
   title: "Jherico Cocosa",
