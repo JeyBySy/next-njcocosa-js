@@ -1,13 +1,14 @@
 import React from 'react'
+import Section from './Global/Section'
 
 const Projects = () => {
     return (
-        <div className='bg-mine-800 '>
-            <div className='container m-auto relative'>
-                <div className="min-h-[90vh] py-5" id="projects">
-                    <h1 className='text-[3rem] font-black'>Projects</h1>
+        <div className='bg-mine-950 relative'>
+            <Section title={'project'}>
+                <div className="h-fit lg:min-h-[90vh] py-5" id="projects">
+
                 </div>
-            </div>
+            </Section>
         </div>
     )
 }

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <section className="flex flex-col">
+      <section className="flex flex-col overflow-x-hidden">
         <Header />
         <About />
         <Projects />
