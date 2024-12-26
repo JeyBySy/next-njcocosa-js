@@ -1,5 +1,5 @@
 export const technologies = [
-    { lang: "Reactjs", icon: "/icons/react.svg", hide: true },
+    { lang: "Reactjs", icon: "/icons/react.svg" },
     { lang: "Nextjs", icon: "/icons/nextjs-original.svg" },
     { lang: "Javascript", icon: "/icons/javascript-original.svg" },
     { lang: "Nodejs", icon: "/icons/nodejs-original.svg" },

@@ -18,7 +18,7 @@ export const experience = [
     {
         "company": "NUCLEIO TECHNOLOGIES IT SOLUTIONS",
         "year": "2022",
-        "position": "Intern, Software developer",
+        "position": "Intern, Web developer",
         "responsibilities": "On my internship, I comprehensively managed project deployments on our company’s server (on-premise and cloud) infrastructure and actively contributed to various ongoing projects with minimal supervision. Collaborating effectively with team members, I addressed bug fixes and modifications to ensure efficient achievement of project objectives while maintaining high-quality standards.",
         "date": "January 2022 – September 2022",
         "techStacks": ["Wordpress", "Docker", "php", "Laravel", "Nodejs", "DigitalOcean", "Linux", "API", "Git", "MySQL"]
