@@ -6,10 +6,10 @@ const Header = () => {
         <div className="container relative m-auto">
             {/* Background Layer */}
             <div className=" absolute m-auto w-full h-full z-0">
-                <p className="absolute top-44 -right-10 transform -translate-y-1/2 text-[800px] font-black text-mine-600 tracking-tighter">
+                <p className="absolute top-44 -right-14 transform -translate-y-1/2 text-[860px] font-black text-mine-400 tracking-tighter border-[5px] border-double">
                     &or;
                 </p>
-                <div className="absolute w-[200px] h-full bottom-0 left-0 font-black bg-mine-600 tracking-tighter"></div>
+                <div className="absolute w-[200px] h-full bottom-0 left-0 font-black bg-mine-400 tracking-tighter"></div>
             </div>
 
 
@@ -43,17 +43,19 @@ const Header = () => {
                 </div>
 
                 {/* Social Links */}
-                <div className="absolute bottom-[2rem] -right-3 flex flex-col gap-5 border-l-[3px] py-4 px-2 border-mine-600 z-10">
-                    <a href="https://github.com/JeyBySy" target="_blank">
-                        <Image alt="github" src="/img/github.svg" width={0} height={0} className="w-[30px]" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/jhericococosa/" target="_blank">
-                        <Image alt="linkedin" src="/img/linkedin.svg" width={0} height={0} className="w-[30px]" />
-                    </a>
-                    <a href="https://www.facebook.com/njcocosa" target="_blank">
-                        <Image alt="facebook" src="/img/fb.svg" width={0} height={0} className="w-[30px]" />
-                    </a>
-                    <Image alt="thread" src="/img/thread.svg" width={0} height={0} className="w-[30px]" />
+                <div className="absolute bottom-[2rem] -right-10  z-10 bg-mine-900 py-4 px-6">
+                    <div className='flex flex-col gap-5 border-l-[3px] px-2  border-green-400'>
+                        <a href="https://github.com/JeyBySy" target="_blank">
+                            <Image alt="github" src="/img/github.svg" width={0} height={0} className="w-[30px]" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/jhericococosa/" target="_blank">
+                            <Image alt="linkedin" src="/img/linkedin.svg" width={0} height={0} className="w-[30px]" />
+                        </a>
+                        <a href="https://www.facebook.com/njcocosa" target="_blank">
+                            <Image alt="facebook" src="/img/fb.svg" width={0} height={0} className="w-[30px]" />
+                        </a>
+                        <Image alt="thread" src="/img/thread.svg" width={0} height={0} className="w-[30px]" />
+                    </div>
                 </div>
             </div>
         </div>
