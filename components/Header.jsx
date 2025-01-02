@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Header = () => {
     return (
-        <div className="container relative m-auto px-4 sm:px-6 lg:px-8">
+        <div className="container relative m-auto px-4 sm:px-6 lg:px-8 bg-mine-800">
             {/* Background Layer */}
             <div className="absolute inset-0 w-full h-full z-0">
                 <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[10rem] sm:text-[20rem] lg:text-[25rem] font-black text-mine-600 tracking-tighter border-[5px] border-double opacity-20 p-2">
@@ -26,7 +26,7 @@ const Header = () => {
                         </span>
                         <div className='grid grid-cols-[1fr_1fr] '>
                             <div className="flex items-center justify-start ">
-                                <p className='text-[1.2rem] lg:text-[2rem] text-green-50'>Web Developer</p>
+                                <p className='text-[1.2rem] text-green-50'>Web Developer</p>
                             </div>
                             <div className="flex flex-row gap-2 px-2 border-green-400 items-center justify-end" >
                                 <a href="https://github.com/JeyBySy" target="_blank" rel="noopener noreferrer">
@@ -38,7 +38,7 @@ const Header = () => {
                                 <a href="https://www.facebook.com/njcocosa" target="_blank" rel="noopener noreferrer">
                                     <Image alt="facebook" src="/img/fb.svg" width={30} height={30} className="w-[24px] sm:w-[25px]" />
                                 </a>
-                                <Image alt="thread" src="/img/thread.svg" width={30} height={30} className="w-[24px] sm:w-[25px]" />
+                                {/* <Image alt="thread" src="/img/thread.svg" width={30} height={30} className="w-[24px] sm:w-[25px]" /> */}
                             </div>
                         </div>
                     </div>

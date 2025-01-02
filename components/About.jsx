@@ -25,10 +25,10 @@ const About = () => {
             <Section title={'about'} id="about">
                 <div className="h-fit">
                     {/* Introduction */}
-                    <section className='mt-20  text-justify px-4 sm:px-6 '>
-                        <p className='text-lg indent-8 text-mine-300'>
-                            Hello! My name is Niño Jherico Cocosa, a Web developer based in Paharang, Batangas City, Philippines. My path in web development has been driven by a passion for solving problems. I love diving into challenges and finding creative solutions. I&apos;m all about keeping up with the latest in tech, and I&apos;m eager to keep learning and growing in this ever-changing field.
-                        </p>
+                    <section className='text-justify px-4 sm:px-6 '>
+                        <div className='text-lg text-mine-300'>
+                            Hello! My name is <span className='text-green-400'>Niño Jherico Cocosa,</span> a Web developer based in Paharang, Batangas City, Philippines. My path in web development has been driven by a passion for solving problems. I love diving into challenges and finding creative solutions. I&apos;m all about keeping up with the latest in tech, and I&apos;m eager to keep learning and growing in this ever-changing field.
+                        </div>
                     </section>
 
                     {/* Tech Stacks */}

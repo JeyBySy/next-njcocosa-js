@@ -1,13 +1,14 @@
 import React from 'react'
+import Section from './Global/Section';
 
 const Contact = () => {
     return (
-        <div className='bg-mine-800 '>
-            <div className='container m-auto relative'>
-                <div className="min-h-[90vh] py-5" id="contact">
-                    <h1 className='text-[3rem] font-black text-center'>Contact</h1>
+        <div className='bg-mine-950 relative'>
+            <Section title={'contacts'} id="contact">
+                <div className="h-fit lg:min-h-[90vh] py-5">
+
                 </div>
-            </div>
+            </Section>
         </div>
     )
 }
