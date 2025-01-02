@@ -41,7 +41,7 @@ export default function Home() {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className=" text-xl fixed bottom-5 right-5 bg-green-600 text-white px-4 py-3 rounded-full shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300"
+          className="z-40 text-xl fixed bottom-5 right-5 bg-green-600 text-white px-4 py-3 rounded-full shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300"
         >
           ↑
         </button>

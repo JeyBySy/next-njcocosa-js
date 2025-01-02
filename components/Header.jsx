@@ -14,15 +14,15 @@ const Header = () => {
             </div>
 
             {/* Foreground Layer */}
-            <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center lg:items-start">
+            <div className="relative z-0 flex flex-col-reverse lg:flex-row items-center lg:items-start">
                 {/* Text Section */}
-                <div className="w-full lg:w-[70%] flex flex-col justify-end h-[70vh] px-4 sm:px-10  py-6">
+                <div className="w-full h-fit lg:w-[70%] flex flex-col justify-end lg:h-[70vh] px-4 sm:px-10  py-6">
                     <div className="text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem] text-start flex flex-col bg-mine-900 p-5 shadow-md rounded">
                         <span className="text-[1rem] sm:text-[1.2rem] text-green-50 font-black">
                             Hello, I&apos;m
                         </span>
                         <span className="text-[2rem] lg:text-[4.3rem] text-green-400 font-black tracking-tighter drop-shadow-2xl">
-                            Nino Jherico Cocosa
+                            Niño Jherico Cocosa
                         </span>
                         <div className='grid grid-cols-[1fr_1fr] '>
                             <div className="flex items-center justify-start ">
@@ -45,7 +45,7 @@ const Header = () => {
                 </div>
 
                 {/* Image Section */}
-                <div className="w-full lg:w-1/2 relative flex justify-center items-end lg:items-center">
+                <div className="w-full lg:w-1/2 relative flex justify-center items-center">
                     <Image
                         alt="Jherico"
                         src="/img/jherico.png"
@@ -53,7 +53,7 @@ const Header = () => {
                         height={1000}
                         priority
                         quality={100}
-                        className="w-[500px] sm:w-[300px] lg:w-[400px] xl:w-[500px] object-contain grayscale-[80%] brightness-110"
+                        className="w-[50%] sm:w-[300px] lg:w-[400px] xl:w-[500px] object-contain grayscale-[80%] brightness-110 "
                     />
                 </div>
             </div>

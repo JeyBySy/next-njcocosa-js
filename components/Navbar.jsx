@@ -30,7 +30,7 @@ const Navbar = () => {
 
                 {/* Resume Button */}
                 <div className='hidden md:flex justify-end'>
-                    <button className='bg-white text-gray-700 px-4 py-2 rounded-full text-xs font-black flex gap-2 items-center'>
+                    <button className='bg-white text-gray-700 px-4 py-2 rounded-full text-xs flex gap-2 items-center'>
                         Resume <Download width={15} height={15} />
                     </button>
                 </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
                     <Link href="#contact" onClick={toggleMenu}>
                         <button className={navBtnStyles}>Contact</button>
                     </Link>
-                    <button className='bg-white text-gray-700 px-4 py-2 rounded-full text-xs font-black flex gap-2 items-center'>
+                    <button className='bg-white text-gray-700 px-4 py-2 rounded-full text-xs flex gap-2 items-center'>
                         Resume <Download width={15} height={15} />
                     </button>
                 </div>
