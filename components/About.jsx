@@ -6,6 +6,7 @@ import { Building2 } from 'lucide-react';
 import { technologies } from "../util/TechStack";
 import { experience } from "../util/Experience";
 import { certificates } from "../util/Certificates";
+import { motion } from "framer-motion";
 
 const About = () => {
     const titleStyle = "text-2xl py-5 w-fit text-green-400 font-bold text-center lg:text-start w-full";
@@ -34,7 +35,8 @@ const About = () => {
         };
     }, [isFullScreen]);
     return (
-        <div className='bg-mine-950 relative'>
+        <motion.div
+            className='bg-mine-950 relative'>
             <Section title={'about'} id="about">
                 <div className="h-fit">
                     {/* Introduction */}
@@ -61,7 +63,7 @@ const About = () => {
                     {/* Tech Stacks */}
                     <section>
                         <p className={titleStyle}>&lt;TechStacks&gt;</p>
-                        <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 w-[90%] lg:w-[90%] m-auto'>
+                        <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 w-[90%] lg:w-[90%] m-auto'>
                             {technologies.filter(item => !item.hide).map((item, index) => (
                                 <div key={index} className='py-5 w-full bg-mine-700 rounded-lg flex flex-col items-center justify-center gap-5 shadow-md'>
                                     <Image alt={item.lang} src={item.icon} width={900} height={900} className='w-[50px] sm:w-[80px]' />
@@ -162,7 +164,7 @@ const About = () => {
                     </div>
                 </div>
             )}
-        </div>
+        </motion.div>
     );
 };
 
