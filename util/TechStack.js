@@ -4,9 +4,13 @@ export const technologies = [
     { lang: "Javascript", icon: "/icons/javascript-original.svg" },
     { lang: "Nodejs", icon: "/icons/nodejs-original.svg" },
     { lang: "Express", icon: "/icons/express-original.svg" },
+    { lang: "Jsonwebtoken", icon: "/icons/jsonwebtokens.svg" },
+    { lang: "sequelize", icon: "/icons/sequelize.svg" },
     { lang: "Python", icon: "/icons/python-original.svg" },
     { lang: "Django", icon: "/icons/django-plain.svg" },
     { lang: "Flask", icon: "/icons/flask.svg" },
+    { lang: "typescript", icon: "/icons/typescript.svg", hide: true },
+    { lang: "Shell", icon: "/icons/terminal.svg" },
     { lang: "API", icon: "/icons/api-icon.svg" },
     { lang: "HTML", icon: "/icons/html5-original.svg" },
     { lang: "CSS3", icon: "/icons/css3-original.svg" },
@@ -26,4 +30,5 @@ export const technologies = [
     { lang: "Jira", icon: "/icons/jira-original.svg" },
     { lang: "Postman", icon: "/icons/postman-original.svg" },
     { lang: "slack", icon: "/icons/slack-original.svg" },
+
 ];

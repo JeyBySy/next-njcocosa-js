@@ -35,8 +35,16 @@ module.exports = {
           '900': '#34353a',
           '950': '#26272b',
         },
-
-      }
+      },
+      keyframes: {
+        fadeInUp: {
+          from: { opacity: '0', scale: 0.5 },
+          to: { opacity: '1', scale: 1 },
+        },
+      },
+      animation: {
+        'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards',
+      },
     },
   },
   plugins: [],

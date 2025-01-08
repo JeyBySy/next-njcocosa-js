@@ -14,7 +14,7 @@ const Section = ({ children, title, id }) => {
                     setIsVisible(true); // Set visibility to true when section is in viewport
                 }
             },
-            { threshold: 0.1 } // Trigger when 20% of the section is visible
+            { threshold: 0.07 } // Trigger when 20% of the section is visible
         );
 
         if (sectionNode) {

@@ -9,7 +9,7 @@ const Header = () => {
             whileInView="visible"
             viewport={{ once: true, amount: 0 }}
             transition={{ duration: 0.6 }}
-            className="container relative m-auto px-4 mt-4 sm:px-6 lg:px-8 bg-mine-800">
+            className="container relative m-auto px-4 mt-4 sm:px-6 lg:px-8 bg-mine-800 ">
             {/* Background Layer */}
             <motion.div
                 initial={{ opacity: 0 }}
@@ -42,18 +42,18 @@ const Header = () => {
             </motion.div>
 
             {/* Foreground Layer */}
-            <div className="relative z-0 flex flex-col-reverse lg:flex-row items-center lg:items-start h-[750px]">
+            <div className="relative z-0 flex flex-col-reverse lg:flex-row items-start lg:items-start md:h-full lg:h-[750px] ">
                 {/* Text Section */}
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 1.5 }}
-                    className="w-full lg:w-[70%] flex flex-col justify-end  lg:px-4 pb-6 lg:py-6 lg:h-full">
+                    className="w-full lg:w-[70%] flex flex-col justify-center lg:px-4 pb-6 lg:py-6 h-full">
                     <div className="text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem] text-start flex flex-col bg-mine-900 p-5 shadow-md rounded">
                         <span className="text-[1rem] sm:text-[1.2rem] text-green-50 font-black">
                             Hello, I&apos;m
                         </span>
-                        <span className="text-[2rem] lg:text-[4.3rem] text-green-400 font-black tracking-tighter drop-shadow-2xl">
+                        <span className="text-[2rem] md:text-[2rem] lg:text-[4.3rem] text-green-400 font-black tracking-tighter drop-shadow-2xl">
                             Niño Jherico Cocosa
                         </span>
                         <div className='grid lg:grid-cols-[1fr_1fr] '>
@@ -90,7 +90,7 @@ const Header = () => {
                         height={1000}
                         priority
                         quality={100}
-                        className="w-[80%] sm:w-[300px] lg:w-[400px] xl:w-[500px] object-contain grayscale-[80%] brightness-110  "
+                        className="w-[80%] sm:w-[200px] lg:w-[400px] xl:w-[500px] object-contain grayscale-[80%] brightness-110  "
                     />
                 </motion.div>
             </div>

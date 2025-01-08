@@ -35,8 +35,7 @@ const About = () => {
         };
     }, [isFullScreen]);
     return (
-        <motion.div
-            className='bg-mine-950 relative'>
+        <div className='bg-mine-950 relative'>
             <Section title={'about'} id="about">
                 <div className="h-fit">
                     {/* Introduction */}
@@ -44,21 +43,16 @@ const About = () => {
                         <div className={`text-base text-mine-300`}>
                             Hello! My name is <span className='text-green-400'>Niño Jherico Cocosa,</span> a Web developer based in Paharang, Batangas City, Philippines. My path in web development has been driven by a passion for solving problems. I love diving into challenges and finding creative solutions. I&apos;m all about keeping up with the latest in tech, and I&apos;m eager to keep learning and growing in this ever-changing field.
                         </div>
-
-                        <pre className="tracking leading-[2] font-mono bg-slate-800 w-full p-4 rounded flex flex-col">
+                        <pre className="tracking leading-[2] font-mono bg-slate-800 w-full p-4 rounded flex flex-col overflow-x-auto whitespace-pre-wrap">
                             <span>const <span className="text-green-200">NiñoJhericoVillenaCocosa</span> = &#123;</span>
-                            <p><span className="ml-5 text-green-500">Degree</span>&#58;&quot;Bachelor&apos;s Degree in Information Technology&quot;,</p>
-                            <p><span className="ml-5 text-green-500">School</span>&#58;&quot;Batangas State University - The National Engineering University&quot;,</p>
-                            <p><span className="ml-5 text-green-500">Address</span>&#58;&quot;Paharang, Batangas City, Batangas, PH&quot;,</p>
-                            <p><span className="ml-5 text-green-500">Nationality</span>&#58;&quot;Filipino&quot;,</p>
-                            <p><span className="ml-5 text-green-500">Email</span>&#58;&quot;njcocosa@gmail.com&quot;,</p>
-                            <p><span className="ml-5 text-green-500">YearsOfExperience</span>&#58;&quot;2&quot;</p>
+                            <p><span className="lg:ml-5 text-green-500">Degree</span>&#58;&quot;Bachelor&apos;s Degree in Information Technology&quot;,</p>
+                            <p><span className="lg:ml-5 text-green-500">School</span>&#58;&quot;Batangas State University - The National Engineering University&quot;,</p>
+                            <p><span className="lg:ml-5 text-green-500">Address</span>&#58;&quot;Paharang, Batangas City, Batangas, PH&quot;,</p>
+                            <p><span className="lg:ml-5 text-green-500">Nationality</span>&#58;&quot;Filipino&quot;,</p>
+                            <p><span className="lg:ml-5 text-green-500">Email</span>&#58;&quot;njcocosa@gmail.com&quot;,</p>
+                            <p><span className="lg:ml-5 text-green-500">YearsOfExperience</span>&#58;&quot;2&quot;</p>
                             &#125;
-
                         </pre>
-
-
-
                     </section>
                     {/* Tech Stacks */}
                     <section>
@@ -127,13 +121,13 @@ const About = () => {
                     {/* Certifications */}
                     <section className='mt-8'>
                         <p className={titleStyle}>&lt;Certifications&gt;</p>
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 w-full h-fit px-4 sm:px-6'>
+                        <div className='grid grid-cols-1 2xl:grid-cols-2  gap-5 w-full h-fit px-4 sm:px-6'>
                             {certificates?.map((item, index) => (
                                 <div key={index} className='p-2 grid grid-cols-[1fr_auto] bg-mine-700 rounded shadow-md lg:min-h-[200px]'>
                                     <div className='w-full text-sm sm:text-lg flex flex-col p-4 gap-3 relative'>
                                         <span className='text-xl sm:text-3xl text-mine-50'>{item.name}</span>
                                         <span className='text-sm sm:text-lg text-mine-200'>{item.description}</span>
-                                        <span className='absolute bottom-0 mb-4 text-xs sm:text-sm text-mine-300'>{item.year}</span>
+                                        <span className='lg:absolute bottom-0 mb-4 text-xs sm:text-sm text-mine-300'>{item.year}</span>
                                     </div>
                                     <div className='w-full flex items-center justify-center'>
                                         <Image alt={item.name} src={item.icon} width={1000} height={1000} className='max-w-[150px] sm:max-w-[200px]' quality={100} onClick={() => openFullScreen(item.icon)} />
@@ -164,7 +158,7 @@ const About = () => {
                     </div>
                 </div>
             )}
-        </motion.div>
+        </div>
     );
 };
 
