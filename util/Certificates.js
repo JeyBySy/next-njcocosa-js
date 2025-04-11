@@ -1,5 +1,17 @@
 export const certificates = [
     {
+        name: 'Hacker Rank (Javascript Basic)',
+        icon: "/certificates/javascript_basic.png",
+        description: 'Javascript Basic',
+        year: 'April 10, 2025',
+    },
+    {
+        name: 'Hacker Rank (React Basic)',
+        icon: "/certificates/react_basic.png",
+        description: 'React Basic',
+        year: 'April 10, 2025',
+    },
+    {
         name: 'Erovoutika',
         icon: "/certificates/erovotika.png",
         description: 'CYBER SECURITY SOLUTIONS',
