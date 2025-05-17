@@ -84,9 +84,12 @@ const About = () => {
                                         <span className='text-mine-300 flex gap-2 items-center'>
                                             <Building2 width={15} height={15} /> {item.company}
                                         </span>
-                                        <p className='text-sm sm:text-base indent-6 py-5'>
-                                            {item.responsibilities}
-                                        </p>
+                                        <div className="text-sm sm:text-base indent-6 py-5 space-y-5">
+                                            {item.responsibilities.map((resp, idx) => (
+                                                <p key={idx}>{resp}</p>
+                                            ))}
+                                        </div>
+
                                         <div className='flex gap-2 flex-wrap'>
                                             {item.techStacks.map((tech, techIndex) => {
                                                 const techInfo = technologies.find(t => t.lang === tech);

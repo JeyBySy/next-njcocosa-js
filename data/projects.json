@@ -1,76 +1,114 @@
 [
-    {
-        "name": "RAuthKey",
-        "github_url": "https://github.com/JeyBySy/RAuthkey",
-        "demo_url":"",
-        "description": "WIP - Authentication service project for my future fullstack projects ",
-        "image": "/img/screenshot.png",
-        "tech":["Javascript","Nodejs","Reactjs","Express","Jsonwebtoken","PostgreSQL","Sequelize","Tailwind" ]
-      },
-      {
-        "name": "next-njcocosa-js",
-        "github_url": "https://github.com/JeyBySy/next-njcocosa-js",
-        "demo_url":"",
-        "description": "Web Portfolio",
-        "image": "/img/screenshot.png",
-        "tech":["Nextjs","Tailwind"]
-      },
-      {
-        "name": "FlowerShop",
-        "github_url": "https://github.com/JeyBySy/flowerShop",
-        "demo_url":"flower-shop-beta-two.vercel.app/",
-        "description": "WIP - Flowershop ecommerce project",
-        "image": "/img/screenshot.png",
-        "tech":["Reactjs","Nodejs","Express","PostgreSQL","Sequelize"]
-      },
-      {
-        "name": "AimWorks",
-        "github_url": "https://github.com/JeyBySy/AimWorks",
-        "demo_url":"jeybysy.github.io/AimWorks/",
-        "description": "AimWorks is a mini game inspired by Aimlabs. ",
-        "image": "/img/screenshot.png",
-        "tech":["HTML","CSS3","Javascript"]
-      },
-      {
-        "name": "Schedulease",
-        "github_url": "https://github.com/JeyBySy/schedulease",
-        "demo_url":"",
-        "description": "WIP - Online booking system",
-        "image": "/img/screenshot.png",
-        "tech":["Nextjs", "Typescript","Express","PostgreSQL","Sequelize","Jsonwebtoken"]
-      },
-      {
-        "name": "Spotify Clone",
-        "github_url": "https://github.com/JeyBySy/spotify_clone",
-        "demo_url":"",
-        "description": "WIP - Spotify Clone UI",
-        "image": "/img/screenshot.png",
-        "tech":["Reactjs"]
-      },
-      {
-        "name": "setup-docker",
-        "github_url": "https://github.com/JeyBySy/setup_docker",
-        "demo_url":"",
-        "description": "Installation of docker in linux os",
-        "image": "/img/screenshot.png",
-        "tech":["Shell"]
-      },
-      {
-        "name": "Digital Clock",
-        "github_url": "https://github.com/JeyBySy/Digital-Clock",
-        "demo_url":"JeyBySy.github.io/Digital-Clock",
-        "description": "Practicing OOP programming in js ",
-        "image": "/img/screenshot.png",
-       "tech":["HTML","CSS3","Javascript"]
-      },
-      {
-        "name": "File Upload App",
-        "github_url": "https://github.com/JeyBySy/File_Upload_Web_App",
-        "demo_url":"",
-        "description": "These projects are built to operate on local machine, making it easy to handle and tweak files and make sharing files within your network ",
-        "image": "/img/screenshot.png",
-        "tech":["HTML","CSS3","Javascript", "Nodejs","Express"]
-      }
-
-      
+  {
+    "name": "next-njcocosa-js",
+    "github_url": "https://github.com/JeyBySy/next-njcocosa-js",
+    "demo_url": "https://ninojhericococosa.vercel.app/",
+    "description": "Web Portfolio",
+    "image": "/img/screenshot.png",
+    "tech": ["Nextjs", "Tailwind"]
+  },
+  {
+    "name": "MapaManiaPH",
+    "github_url": "https://github.com/JeyBySy/MapaManiaPH",
+    "demo_url": "https://mapa-mania-ph.vercel.app/",
+    "description": "A quiz app that lets you guess the provinces, cities, and municipalities of the Philippines by typing the answer of the highlighted and shown figure ",
+    "image": "/img/screenshot.png",
+    "tech": ["Reactjs", "Javascript", "Tailwind"]
+  },
+  {
+    "name": "PH_PROVINCE_MAP_SVG",
+    "github_url": "https://github.com/JeyBySy/PH_PROVINCE_MAP_SVG",
+    "demo_url": "",
+    "description": "A simple and customizable collection of SVG maps for all provinces in the Philippines. Perfect for data visualization, geographic apps, and interactive maps. ",
+    "image": "/img/screenshot.png",
+    "tech": ["GIMP"]
+  },
+  {
+    "name": "Spotify Clone",
+    "github_url": "https://github.com/JeyBySy/spotify_clone",
+    "demo_url": "",
+    "description": "Spotify Clone UI",
+    "image": "/img/screenshot.png",
+    "tech": ["Reactjs","Tailwind"]
+  },
+  {
+    "name": "RAuthKey",
+    "github_url": "https://github.com/JeyBySy/RAuthkey",
+    "demo_url": "",
+    "description": "WIP - Authentication service project for my future fullstack projects ",
+    "image": "/img/screenshot.png",
+    "tech": [
+      "Javascript",
+      "Nodejs",
+      "Reactjs",
+      "Express",
+      "Jsonwebtoken",
+      "PostgreSQL",
+      "Sequelize",
+      "Tailwind"
+    ]
+  },
+  {
+    "name": "FlowerShop",
+    "github_url": "https://github.com/JeyBySy/flowerShop",
+    "demo_url": "flower-shop-beta-two.vercel.app/",
+    "description": "WIP - Flowershop ecommerce project",
+    "image": "/img/screenshot.png",
+    "tech": ["Reactjs", "Nodejs", "Express", "PostgreSQL", "Sequelize"]
+  },
+  {
+    "name": "AimWorks",
+    "github_url": "https://github.com/JeyBySy/AimWorks",
+    "demo_url": "jeybysy.github.io/AimWorks/",
+    "description": "AimWorks is a mini game inspired by Aimlabs. ",
+    "image": "/img/screenshot.png",
+    "tech": ["HTML", "CSS3", "Javascript"]
+  },
+  {
+    "name": "ToDoList",
+    "github_url": "https://github.com/JeyBySy/todolist",
+    "demo_url": "",
+    "description": "Simple Vuejs project. Just exploring the framework and getting familiar with how it works. Mainly for learning and testing things out",
+    "image": "/img/screenshot.png",
+    "tech": ["Vuejs"]
+  },
+  {
+    "name": "Schedulease",
+    "github_url": "https://github.com/JeyBySy/schedulease",
+    "demo_url": "",
+    "description": "WIP - Online booking system",
+    "image": "/img/screenshot.png",
+    "tech": [
+      "Nextjs",
+      "Typescript",
+      "Express",
+      "PostgreSQL",
+      "Sequelize",
+      "Jsonwebtoken"
+    ]
+  },
+  {
+    "name": "setup-docker",
+    "github_url": "https://github.com/JeyBySy/setup_docker",
+    "demo_url": "",
+    "description": "Installation of docker in linux os",
+    "image": "/img/screenshot.png",
+    "tech": ["Shell"]
+  },
+  {
+    "name": "Digital Clock",
+    "github_url": "https://github.com/JeyBySy/Digital-Clock",
+    "demo_url": "JeyBySy.github.io/Digital-Clock",
+    "description": "Practicing OOP programming in js ",
+    "image": "/img/screenshot.png",
+    "tech": ["HTML", "CSS3", "Javascript"]
+  },
+  {
+    "name": "File Upload App",
+    "github_url": "https://github.com/JeyBySy/File_Upload_Web_App",
+    "demo_url": "",
+    "description": "These projects are built to operate on local machine, making it easy to handle and tweak files and make sharing files within your network ",
+    "image": "/img/screenshot.png",
+    "tech": ["HTML", "CSS3", "Javascript", "Nodejs", "Express"]
+  }
 ]

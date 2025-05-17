@@ -30,5 +30,6 @@ export const technologies = [
     { lang: "Jira", icon: "/icons/jira-original.svg" },
     { lang: "Postman", icon: "/icons/postman-original.svg" },
     { lang: "slack", icon: "/icons/slack-original.svg" },
+    { lang: "Vuejs", icon: "/icons/vuejs.svg", hide: true },
 
 ];
