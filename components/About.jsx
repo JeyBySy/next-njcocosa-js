@@ -124,13 +124,13 @@ const About = () => {
                     {/* Certifications */}
                     <section className='mt-8'>
                         <p className={titleStyle}>&lt;Certifications&gt;</p>
-                        <div className='grid grid-cols-1 2xl:grid-cols-2  gap-5 w-full h-fit px-4 sm:px-6'>
+                        <div className='grid grid-cols-1 xl:grid-cols-2  gap-5 w-full h-fit px-4 sm:px-6'>
                             {certificates?.map((item, index) => (
                                 <div key={index} className='p-2 grid grid-cols-[1fr_auto] bg-mine-700 rounded shadow-md lg:min-h-[200px]'>
-                                    <div className='w-full text-sm sm:text-lg flex flex-col p-4 gap-3 relative'>
-                                        <span className='text-xl sm:text-3xl text-mine-50'>{item.name}</span>
-                                        <span className='text-sm sm:text-lg text-mine-200'>{item.description}</span>
-                                        <span className='lg:absolute bottom-0 mb-4 text-xs sm:text-sm text-mine-300'>{item.year}</span>
+                                    <div className='w-full text-sm sm:text-lg flex flex-col p-4 gap-3 justify-between relative'>
+                                        <span className='text-xl sm:text-3xl text-mine-50 font-semibold'>{item.name}</span>
+                                        <span className='text-sm sm:text-lg text-mine-300'>{item.description}</span>
+                                        <span className=' mb-4 text-xs sm:text-sm text-mine-300'>{item.year}</span>
                                     </div>
                                     <div className='w-full flex items-center justify-center'>
                                         <Image alt={item.name} src={item.icon} width={1000} height={1000} className='max-w-[150px] sm:max-w-[200px]' quality={100} onClick={() => openFullScreen(item.icon)} />
